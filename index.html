@@ -10,9 +10,53 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- bootsrap icons  -->
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/font/bootstrap-icons.css">
+
+    <!-- resonsive css -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     
+    <!-- header add -->
+    <header>
+        <div class="container">
+            <!-- navigation add -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light my-custom-navbar">
+                <div class="container">
+                  <a class="navbar-brand logo-brand" href="#">
+                      <img  class="img-fluid logo-img"src="./assets/images/logo.png" alt="" srcset="">
+                  </a>
+                  <button class="navbar-toggler my-nav-mine " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex justify-content-center justify-content-sm-between ms-auto px-lg-4 px-md-2 px-sm-1 position-relative my-search-box">
+                      <input class="form-control me-2 rounded-pill  " type="search" placeholder="Search" aria-label="Search"> 
+                      <a href="#" class="btn  btn-outline- border-0 my-search-button position-absolute" type="submit"><i class="bi  bi-search"></i></a>
+                    </form>
+                    <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0">
+                      <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Products</a>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link">About us</a>
+                      </li>
+                      <li class="nav-item px-2">
+                        <a class="nav-link">Contract us</a>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </div>
+              </nav>
+
+              <!-- navbar end -->
+        </div>
+    </header>
 
     <!-- bootstrap bundle js -->
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
