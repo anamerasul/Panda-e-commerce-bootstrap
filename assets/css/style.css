@@ -54,7 +54,7 @@ line-height: 3.5rem;
 color: #FF136F;
 
 }
-.carousel-content button{
+.m-3 button,.carousel-content button,.subcribsection-content div button{
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
 
     color:#fff;
@@ -62,5 +62,19 @@ color: #FF136F;
     outline:none;
     border:1px solid transparent;
 
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-color: orange;
+}
+.cat2{
+    background-color: orchid;
+}
+.cat3{
+    background-color: blue;
 }
 
